@@ -6,7 +6,7 @@
 
 import Foundation
 import UIKit
-//Converting raw date to simple date string.
+//Extensio for Converting raw date to simple date string.
 extension Date {
     func asString(style: DateFormatter.Style) -> String {
         let dateFormatter = DateFormatter()
@@ -14,7 +14,7 @@ extension Date {
         return dateFormatter.string(from: self)
     }
 }
-//Extension for creating alert
+//Extension for creating alert and actitvity indicator view.
 extension UIViewController{
     func alertManager(alertControllerTitle:String, message:String, alertActionTitle:String){
         let alertContolelr = UIAlertController(title: alertControllerTitle, message: message, preferredStyle: .alert)
