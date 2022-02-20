@@ -1,7 +1,6 @@
 //
 //  AppDelegate.swift
 //  RishabhDiaryProject
-//  20th Feb
 //
 
 import UIKit

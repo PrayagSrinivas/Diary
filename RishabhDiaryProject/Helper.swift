@@ -6,7 +6,7 @@
 
 import Foundation
 import UIKit
-//Extensio for Converting raw date to simple date string.
+//Extension for Converting raw date to simple date string.
 extension Date {
     func asString(style: DateFormatter.Style) -> String {
         let dateFormatter = DateFormatter()
