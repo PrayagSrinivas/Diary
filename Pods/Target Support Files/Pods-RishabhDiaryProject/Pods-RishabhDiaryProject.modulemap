@@ -1,0 +1,6 @@
+framework module Pods_RishabhDiaryProject {
+  umbrella header "Pods-RishabhDiaryProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

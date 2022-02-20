@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3318A14A27BE8AD800FEAACA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3318A14927BE8AD800FEAACA /* Helper.swift */; };
+		332179EC27BD171000A3727E /* DIaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332179EA27BD171000A3727E /* DIaryCell.swift */; };
+		332179ED27BD171000A3727E /* DIaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 332179EB27BD171000A3727E /* DIaryCell.xib */; };
+		33C099CD27BC9307003AD510 /* DiaryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C099CC27BC9307003AD510 /* DiaryTableVC.swift */; };
+		33C099CF27BC9CD4003AD510 /* DiaryInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C099CE27BC9CD4003AD510 /* DiaryInputVC.swift */; };
+		33C099D127BCF4F8003AD510 /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C099D027BCF4F8003AD510 /* DiaryModel.swift */; };
+		33EF460C27BBBDB200890EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF460B27BBBDB200890EA3 /* AppDelegate.swift */; };
+		33EF460E27BBBDB200890EA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF460D27BBBDB200890EA3 /* SceneDelegate.swift */; };
+		33EF461027BBBDB200890EA3 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF460F27BBBDB200890EA3 /* LogInVC.swift */; };
+		33EF461327BBBDB200890EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EF461127BBBDB200890EA3 /* Main.storyboard */; };
+		33EF461527BBBDB300890EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EF461427BBBDB300890EA3 /* Assets.xcassets */; };
+		33EF461827BBBDB300890EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EF461627BBBDB300890EA3 /* LaunchScreen.storyboard */; };
+		33EF462027BBD0DC00890EA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33EF461F27BBD0DC00890EA3 /* GoogleService-Info.plist */; };
+		AC2A200293CA5A79C88A6544 /* Pods_RishabhDiaryProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78FBE7D62C3A49A3072BE8 /* Pods_RishabhDiaryProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3318A14927BE8AD800FEAACA /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		332179EA27BD171000A3727E /* DIaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIaryCell.swift; sourceTree = "<group>"; };
+		332179EB27BD171000A3727E /* DIaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIaryCell.xib; sourceTree = "<group>"; };
+		33C099CC27BC9307003AD510 /* DiaryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableVC.swift; sourceTree = "<group>"; };
+		33C099CE27BC9CD4003AD510 /* DiaryInputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryInputVC.swift; sourceTree = "<group>"; };
+		33C099D027BCF4F8003AD510 /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+		33EF460827BBBDB200890EA3 /* RishabhDiaryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RishabhDiaryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EF460B27BBBDB200890EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33EF460D27BBBDB200890EA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33EF460F27BBBDB200890EA3 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		33EF461227BBBDB200890EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33EF461427BBBDB300890EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33EF461727BBBDB300890EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33EF461927BBBDB300890EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EF461F27BBD0DC00890EA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		422F00C203679E07C802FC23 /* Pods-RishabhDiaryProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishabhDiaryProject.release.xcconfig"; path = "Target Support Files/Pods-RishabhDiaryProject/Pods-RishabhDiaryProject.release.xcconfig"; sourceTree = "<group>"; };
+		6E78FBE7D62C3A49A3072BE8 /* Pods_RishabhDiaryProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RishabhDiaryProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9432A740CCC595DBC70A60 /* Pods-RishabhDiaryProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RishabhDiaryProject.debug.xcconfig"; path = "Target Support Files/Pods-RishabhDiaryProject/Pods-RishabhDiaryProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EF460527BBBDB200890EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2A200293CA5A79C88A6544 /* Pods_RishabhDiaryProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332179E827BCFE6900A3727E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33EF460F27BBBDB200890EA3 /* LogInVC.swift */,
+				33C099CC27BC9307003AD510 /* DiaryTableVC.swift */,
+				33C099CE27BC9CD4003AD510 /* DiaryInputVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		332179E927BCFE7600A3727E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33C099D027BCF4F8003AD510 /* DiaryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		332179EE27BD171E00A3727E /* Diary TVC */ = {
+			isa = PBXGroup;
+			children = (
+				332179EA27BD171000A3727E /* DIaryCell.swift */,
+				332179EB27BD171000A3727E /* DIaryCell.xib */,
+			);
+			path = "Diary TVC";
+			sourceTree = "<group>";
+		};
+		332179EF27BD1B0100A3727E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33EF461127BBBDB200890EA3 /* Main.storyboard */,
+				33EF461627BBBDB300890EA3 /* LaunchScreen.storyboard */,
+				332179EE27BD171E00A3727E /* Diary TVC */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33EF45FF27BBBDB200890EA3 = {
+			isa = PBXGroup;
+			children = (
+				33EF460A27BBBDB200890EA3 /* RishabhDiaryProject */,
+				33EF460927BBBDB200890EA3 /* Products */,
+				A1D5173B506405B54F33240D /* Pods */,
+				3F1E84414C3EDA4B770B4B4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33EF460927BBBDB200890EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EF460827BBBDB200890EA3 /* RishabhDiaryProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33EF460A27BBBDB200890EA3 /* RishabhDiaryProject */ = {
+			isa = PBXGroup;
+			children = (
+				33EF460B27BBBDB200890EA3 /* AppDelegate.swift */,
+				33EF460D27BBBDB200890EA3 /* SceneDelegate.swift */,
+				3318A14927BE8AD800FEAACA /* Helper.swift */,
+				332179E927BCFE7600A3727E /* Model */,
+				332179EF27BD1B0100A3727E /* View */,
+				332179E827BCFE6900A3727E /* Controller */,
+				33EF461427BBBDB300890EA3 /* Assets.xcassets */,
+				33EF461927BBBDB300890EA3 /* Info.plist */,
+				33EF461F27BBD0DC00890EA3 /* GoogleService-Info.plist */,
+			);
+			path = RishabhDiaryProject;
+			sourceTree = "<group>";
+		};
+		3F1E84414C3EDA4B770B4B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E78FBE7D62C3A49A3072BE8 /* Pods_RishabhDiaryProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D5173B506405B54F33240D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF9432A740CCC595DBC70A60 /* Pods-RishabhDiaryProject.debug.xcconfig */,
+				422F00C203679E07C802FC23 /* Pods-RishabhDiaryProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EF460727BBBDB200890EA3 /* RishabhDiaryProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EF461C27BBBDB300890EA3 /* Build configuration list for PBXNativeTarget "RishabhDiaryProject" */;
+			buildPhases = (
+				A9876448C591E6C50F0B991F /* [CP] Check Pods Manifest.lock */,
+				33EF460427BBBDB200890EA3 /* Sources */,
+				33EF460527BBBDB200890EA3 /* Frameworks */,
+				33EF460627BBBDB200890EA3 /* Resources */,
+				3572775354243BBA714253AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RishabhDiaryProject;
+			productName = RishabhDiaryProject;
+			productReference = 33EF460827BBBDB200890EA3 /* RishabhDiaryProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EF460027BBBDB200890EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					33EF460727BBBDB200890EA3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 33EF460327BBBDB200890EA3 /* Build configuration list for PBXProject "RishabhDiaryProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33EF45FF27BBBDB200890EA3;
+			productRefGroup = 33EF460927BBBDB200890EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EF460727BBBDB200890EA3 /* RishabhDiaryProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EF460627BBBDB200890EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EF461827BBBDB300890EA3 /* LaunchScreen.storyboard in Resources */,
+				33EF462027BBD0DC00890EA3 /* GoogleService-Info.plist in Resources */,
+				33EF461527BBBDB300890EA3 /* Assets.xcassets in Resources */,
+				33EF461327BBBDB200890EA3 /* Main.storyboard in Resources */,
+				332179ED27BD171000A3727E /* DIaryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3572775354243BBA714253AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RishabhDiaryProject/Pods-RishabhDiaryProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RishabhDiaryProject/Pods-RishabhDiaryProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RishabhDiaryProject/Pods-RishabhDiaryProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9876448C591E6C50F0B991F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RishabhDiaryProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EF460427BBBDB200890EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332179EC27BD171000A3727E /* DIaryCell.swift in Sources */,
+				33EF461027BBBDB200890EA3 /* LogInVC.swift in Sources */,
+				33C099D127BCF4F8003AD510 /* DiaryModel.swift in Sources */,
+				33EF460C27BBBDB200890EA3 /* AppDelegate.swift in Sources */,
+				33EF460E27BBBDB200890EA3 /* SceneDelegate.swift in Sources */,
+				33C099CD27BC9307003AD510 /* DiaryTableVC.swift in Sources */,
+				33C099CF27BC9CD4003AD510 /* DiaryInputVC.swift in Sources */,
+				3318A14A27BE8AD800FEAACA /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33EF461127BBBDB200890EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EF461227BBBDB200890EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33EF461627BBBDB300890EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EF461727BBBDB300890EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33EF461A27BBBDB300890EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33EF461B27BBBDB300890EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33EF461D27BBBDB300890EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9432A740CCC595DBC70A60 /* Pods-RishabhDiaryProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27LNB2D9WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RishabhDiaryProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = srinivas.projects.RishabhDiaryProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		33EF461E27BBBDB300890EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422F00C203679E07C802FC23 /* Pods-RishabhDiaryProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27LNB2D9WJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RishabhDiaryProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = srinivas.projects.RishabhDiaryProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EF460327BBBDB200890EA3 /* Build configuration list for PBXProject "RishabhDiaryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EF461A27BBBDB300890EA3 /* Debug */,
+				33EF461B27BBBDB300890EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EF461C27BBBDB300890EA3 /* Build configuration list for PBXNativeTarget "RishabhDiaryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EF461D27BBBDB300890EA3 /* Debug */,
+				33EF461E27BBBDB300890EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33EF460027BBBDB200890EA3 /* Project object */;
+}
