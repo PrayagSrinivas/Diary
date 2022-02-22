@@ -35,7 +35,7 @@ class DiaryTableVC: UIViewController {
                         return DiaryModel(id: doc.documentID, title: doc["title"] as? String ?? "", body: doc["body"] as? String ?? "", createdAt: doc["createdAt"] as? String ?? "")
                     }
                 }
-                self.diaryModel = self.diaryModel.sorted(by: {$0.createdAt.compare($1.createdAt,options: .numeric) == .orderedAscending})
+                self.diaryModel = self.diaryModel.sorted(by: {$0.createdAt.compare($1.createdAt,options: .numeric) == .orderedDescending})
                 DispatchQueue.main.async {
                     self.diaryTable.reloadData()
                 }
